@@ -3,16 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Users\Dmitry.Semenov\site_ver.2\style.css">
     <title>Some facts about me</title>
 </head>
+
 <body>
-    <header>
-        <a href="file:///C:/site/index.html" class="">Main page</a>
+     <header class="header">
+        <div class="header-caption">
+            <h1 class="hero-title">MY FIRST WEBSITE</h1>
+        </div>
+        <nav class="header_nav">
+            <ul class="nav_list">
+                <li class="nav_item">
+                    <a href="file:///C:/Users/Dmitry.Semenov/site_ver.2/index.html" class="nav_link">MAIN PAGE</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#" class="nav_link">ABOUTS</a>
+                </li>
+                <li class="nav_item">
+                    <a href="file:///C:/Users/Dmitry.Semenov/site_ver.2/pages/photos.html" class="nav_link">GALLERY</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!--<a href="file:///C:/Users/Dmitry.Semenov/site_ver.2/index.html" class="">MAIN PAGE</a>
         <a href="#" class="">Abouts</a>
-        <a href="photos.html" class="">Gallery</a>
-      </header>
+        <a href="file:///C:/Users/Dmitry.Semenov/site_ver.2/pages/photos.html" class="">Gallery</a>
+      </header>-->
 
       <main>
+        <aside class="aside">
+            <div class="aside-caption">
+                <h3 class="aside-title">INFO FROM ASIDE</h3>
+            </div>
+            <nav class="aside_nav">
+                <ul class="aside_list">
+                    <li>
+                        <a href="#Interaction" class="contacts_ref" title="approx.info">Contacts</a>
+                    </li><br>
+                    <li class="aside_item">
+                        <a href="#" class="aside_link" title="coming soon">Some text or img</a>
+                    </li><br>
+                    <li class="aside_item">
+                        <a href="#" class="aside_link" title="coming soon">My goals</a>
+                    </li><br>
+                    <li class="aside_item">
+                        <a href="#" class="aside_link" title="coming soon">Progects</a>
+                    </li><br>
+                    <li class="aside_item">
+                        <a href="#" class="aside_link" title="coming soon">Achievements</a>
+                    </li><br>
+                    <li class="aside_item">
+                        <a href="#" class="aside_link" title="coming sooner">Some more txt or img</a>
+                    </li><br>
+                    <li class="aside_item">
+                        <a href="#" class="aside_link" title="coming later">anthg else</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+
+        <article class="article">
         <h1>My story</h1>
         <p>
             My name is Dmitriy. I am 40 years old. I graduated from the Moscow state LU
@@ -37,6 +88,31 @@
             Also at the moment we are engaged in green invironment projects which are 
             closely connected with our modern developments. 
         </p>
+    </article>
       </main>
+
+      <footer id="Interaction">Contacts:
+        <address class="address">
+            <div class="address_data">
+                <p>
+                    1000000, St. Volcheuyskaya 380/1, Moscow<br>
+                    <a href="#" class="map">How to find the address</a>
+                </p>
+            </div>
+            <div class="info">
+                <a href="mailto:info@local.host" class="mailto">info@local.host</a><br>
+                <a href="tel:+00000000000" class="tel">tel.+0(000)0000000</a>
+            </div><br>
+            <div class="textmessage">
+                <form action="">
+                    <label for="message">message</label>
+                    <input type="text" name="notes" id="message">
+                </form>
+                <button type="submit">Send</button>
+            </div>
+        </address>
+        <span></span>
+    </footer> 
     
 </body>
+</html>
