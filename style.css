@@ -94,6 +94,27 @@ main {
     width: 300px;
     height: 200px;
     padding-right: 10px;
+    transition: transform 1s;
+    /*overflow: hidden;*/
+}
+
+
+/*.pic:hover{
+    width: 400px;
+    height: 300px;
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2); 
+    -moz-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: all 1s linear;
+    -webkit-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    -moz-transition: all 1s linear;
+}*/
+.pic:hover{
+    transform: scale(1.5);
+   
 }
 
 .img_list {
@@ -110,9 +131,6 @@ main {
 .photos {
     text-align: center;
     /*border: solid 1px black;*/
-   
-   
-
 }
 
 .aside {
